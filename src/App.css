@@ -12,7 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 .App{
@@ -58,7 +57,7 @@
  align-items: flex-start;
   font-size: 15vmin;
   position: absolute;
-  top: -3vmin;
+  top: 0;
   left: 0;
 }
 .quote{
@@ -82,7 +81,7 @@
   border-radius: 50%;
   color: white;
   font: bold;
-  font-size: 7vmin;
+  font-size: 7.5vmin;
   border: none;
   box-shadow: 0px 1px 10px 0px rgb(152, 152, 153);
   cursor: pointer;
