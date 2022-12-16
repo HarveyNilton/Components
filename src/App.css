@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+
 }
 
 .App{
@@ -48,22 +48,22 @@
   display: flex;
   justify-content: center;
   padding: 6px;
-  gap: 9px;
+  gap: 1vmin;
 
-  position: relative;
   
 }
+svg{
+  width: 9vmin;
+  height: 9vmin;
+}
 .logo{
- display: flex;
- align-items: flex-start;
-  font-size: 15vmin;
-  position: absolute;
-  top: 0;
-  left: 0;
+  width: 9vmin;
+  height: 9vmin;
+ 
 }
 .quote{
   font-size: 3vmin;
-  margin-left: 8vmin;
+ 
 }
 .container-author{
   padding: 6px;
